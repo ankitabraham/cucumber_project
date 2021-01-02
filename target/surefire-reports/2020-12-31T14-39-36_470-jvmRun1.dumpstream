@@ -1,0 +1,184 @@
+# Created at 2020-12-31T14:43:03.504
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:396)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2020-12-31T14:43:04.244
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:06.547
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:08.341
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:09.444
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:11.643
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:12.743
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:15.344
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:16.443
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:17.544
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:18.643
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:19.742
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:21.043
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:23.244
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:24.343
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:25.444
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:25.526
+Unexpected IOException with stream: [DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:1301
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 500 Internal Server Error
+Content-Length: 2082
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+
+
+# Created at 2020-12-31T14:43:25.533
+Unexpected IOException with stream: [DEBUG] Adding key: http://localhost:1301 for channel [id: 0x9dc7f8a5, L:/127.0.0.1:55170 - R:localhost/127.0.0.1:1301]
+
+
+# Created at 2020-12-31T14:43:25.545
+Unexpected IOException with stream: After the closing of the website
+
+
+# Created at 2020-12-31T14:43:25.557
+Unexpected IOException: 7,1,checking login page feature for orangehrm,Login to orangehrm with valid credentials entering username and password from file #4(checking login page feature for orangehrm),null,session not created\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=86.0.4240.198)\000ABuild info: version: '4.0.0-alpha-5'\002C revision: 'b3a0d621cc'\000ASystem info: host: 'THOBRCH'\002C ip: '10.0.0.67'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.2'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00EFC013+3194899]\000A\0009Ordinal0 [0x00DE6021+2056225]\000A\0009Ordinal0 [0x00C7F608+587272]\000A\0009Ordinal0 [0x00C7421D+541213]\000A\0009Ordinal0 [0x00C73F34+540468]\000A\0009Ordinal0 [0x00C7364A+538186]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C7BBC9+572361]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C79EFE+564990]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C78186+557446]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C774A7+554151]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C6F06C+520300]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C725BF+533951]\000A\0009Ordinal0 [0x00C723D3+533459]\000A\0009Ordinal0 [0x00C80620+591392]\000A\0009Ordinal0 [0x00C22A0C+207372]\000A\0009Ordinal0 [0x00C21D0D+204045]\000A\0009Ordinal0 [0x00C1FC1B+195611]\000A\0009Ordinal0 [0x00C03B7F+80767]\000A\0009Ordinal0 [0x00C04B4E+84814]\000A\0009Ordinal0 [0x00C04AD9+84697]\000A\0009Ordinal0 [0x00DFCE64+2149988]\000A\0009GetHandleVerifier [0x0106BE95+1400773]\000A\0009GetHandleVerifier [0x0106BB61+1399953]\000A\0009GetHandleVerifier [0x010731FA+1430314]\000A\0009GetHandleVerifier [0x0106C69F+1402831]\000A\0009Ordinal0 [0x00DF3D61+2112865]\000A\0009Ordinal0 [0x00DFE5CB+2155979]\000A\0009Ordinal0 [0x00DFE6F5+2156277]\000A\0009Ordinal0 [0x00E0F26E+2224750]\000A\0009BaseThreadInitThunk [0x761D6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77648944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77648914+180]\000A,null,session not created\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=86.0.4240.198)\000ABuild info: version: '4.0.0-alpha-5'\002C revision: 'b3a0d621cc'\000ASystem info: host: 'THOBRCH'\002C ip: '10.0.0.67'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.2'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00EFC013+3194899]\000A\0009Ordinal0 [0x00DE6021+2056225]\000A\0009Ordinal0 [0x00C7F608+587272]\000A\0009Ordinal0 [0x00C7421D+541213]\000A\0009Ordinal0 [0x00C73F34+540468]\000A\0009Ordinal0 [0x00C7364A+538186]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C7BBC9+572361]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C79EFE+564990]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C78186+557446]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C774A7+554151]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C6F06C+520300]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C725BF+533951]\000A\0009Ordinal0 [0x00C723D3+533459]\000A\0009Ordinal0 [0x00C80620+591392]\000A\0009Ordinal0 [0x00C22A0C+207372]\000A\0009Ordinal0 [0x00C21D0D+204045]\000A\0009Ordinal0 [0x00C1FC1B+195611]\000A\0009Ordinal0 [0x00C03B7F+80767]\000A\0009Ordinal0 [0x00C04B4E+84814]\000A\0009Ordinal0 [0x00C04AD9+84697]\000A\0009Ordinal0 [0x00DFCE64+2149988]\000A\0009GetHandleVerifier [0x0106BE95+1400773]\000A\0009GetHandleVerifier [0x0106BB61+1399953]\000A\0009GetHandleVerifier [0x010731FA+1430314]\000A\0009GetHandleVerifier [0x0106C69F+1402831]\000A\0009Ordinal0 [0x00DF3D61+2112865]\000A\0009Ordinal0 [0x00DFE5CB+2155979]\000A\0009Ordinal0 [0x00DFE6F5+2156277]\000A\0009Ordinal0 [0x00E0F26E+2224750]\000A\0009BaseThreadInitThunk [0x761D6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77648944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77648914+180]\000A,session not created\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=86.0.4240.198)\000ABuild info: version: '4.0.0-alpha-5'\002C revision: 'b3a0d621cc'\000ASystem info: host: 'THOBRCH'\002C ip: '10.0.0.67'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.2'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00EFC013+3194899]\000A\0009Ordinal0 [0x00DE6021+2056225]\000A\0009Ordinal0 [0x00C7F608+587272]\000A\0009Ordinal0 [0x00C7421D+541213]\000A\0009Ordinal0 [0x00C73F34+540468]\000A\0009Ordinal0 [0x00C7364A+538186]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C7BBC9+572361]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C79EFE+564990]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C78186+557446]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C774A7+554151]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C6F06C+520300]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C725BF+533951]\000A\0009Ordinal0 [0x00C723D3+533459]\000A\0009Ordinal0 [0x00C80620+591392]\000A\0009Ordinal0 [0x00C22A0C+207372]\000A\0009Ordinal0 [0x00C21D0D+204045]\000A\0009Ordinal0 [0x00C1FC1B+195611]\000A\0009Ordinal0 [0x00C03B7F+80767]\000A\0009Ordinal0 [0x00C04B4E+84814]\000A\0009Ordinal0 [0x00C04AD9+84697]\000A\0009Ordinal0 [0x00DFCE64+2149988]\000A\0009GetHandleVerifier [0x0106BE95+1400773]\000A\0009GetHandleVerifier [0x0106BB61+1399953]\000A\0009GetHandleVerifier [0x010731FA+1430314]\000A\0009GetHandleVerifier [0x0106C69F+1402831]\000A\0009Ordinal0 [0x00DF3D61+2112865]\000A\0009Ordinal0 [0x00DFE5CB+2155979]\000A\0009Ordinal0 [0x00DFE6F5+2156277]\000A\0009Ordinal0 [0x00E0F26E+2224750]\000A\0009BaseThreadInitThunk [0x761D6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77648944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77648914+180]\000A,org.openqa.selenium.SessionNotCreatedException: \000Asession not created\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=86.0.4240.198)\000ABuild info: version: '4.0.0-alpha-5'\002C revision: 'b3a0d621cc'\000ASystem info: host: 'THOBRCH'\002C ip: '10.0.0.67'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '14.0.2'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x00EFC013+3194899]\000A\0009Ordinal0 [0x00DE6021+2056225]\000A\0009Ordinal0 [0x00C7F608+587272]\000A\0009Ordinal0 [0x00C7421D+541213]\000A\0009Ordinal0 [0x00C73F34+540468]\000A\0009Ordinal0 [0x00C7364A+538186]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C7BBC9+572361]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C79EFE+564990]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C78186+557446]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C774A7+554151]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C73475+537717]\000A\0009Ordinal0 [0x00C72A6F+535151]\000A\0009Ordinal0 [0x00C72E45+536133]\000A\0009Ordinal0 [0x00C727A5+534437]\000A\0009Ordinal0 [0x00C6F06C+520300]\000A\0009Ordinal0 [0x00C72754+534356]\000A\0009Ordinal0 [0x00C725BF+533951]\000A\0009Ordinal0 [0x00C723D3+533459]\000A\0009Ordinal0 [0x00C80620+591392]\000A\0009Ordinal0 [0x00C22A0C+207372]\000A\0009Ordinal0 [0x00C21D0D+204045]\000A\0009Ordinal0 [0x00C1FC1B+195611]\000A\0009Ordinal0 [0x00C03B7F+80767]\000A\0009Ordinal0 [0x00C04B4E+84814]\000A\0009Ordinal0 [0x00C04AD9+84697]\000A\0009Ordinal0 [0x00DFCE64+2149988]\000A\0009GetHandleVerifier [0x0106BE95+1400773]\000A\0009GetHandleVerifier [0x0106BB61+1399953]\000A\0009GetHandleVerifier [0x010731FA+1430314]\000A\0009GetHandleVerifier [0x0106C69F+1402831]\000A\0009Ordinal0 [0x00DF3D61+2112865]\000A\0009Ordinal0 [0x00DFE5CB+2155979]\000A\0009Ordinal0 [0x00DFE6F5+2156277]\000A\0009Ordinal0 [0x00E0F26E+2224750]\000A\0009BaseThreadInitThunk [0x761D6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77648944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77648914+180]\000A\000A
+
+
+# Created at 2020-12-31T14:43:25.589
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,testRunner.TestRunner,null,null,null
+
+
+# Created at 2020-12-31T14:43:27.886
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:27.896
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:28.942
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:29.614
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:30.710
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:30.716
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:31.743
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:32.620
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:33.642
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:33.645
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:34.744
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:34.749
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:12881 : 1
+
+
+# Created at 2020-12-31T14:43:34.756
+Unexpected IOException with stream: [DEBUG] Adding Candidate expired Channel [id: 0xf6a202d8, L:/127.0.0.1:55129 - R:localhost/127.0.0.1:12881] isIdleTimeoutExpired=true isRemotelyClosed=false isTtlExpired=false
+
+
+# Created at 2020-12-31T14:43:34.762
+Unexpected IOException with stream: [DEBUG] Closing Idle Channel [id: 0xf6a202d8, L:/127.0.0.1:55129 - R:localhost/127.0.0.1:12881]
+
+
+# Created at 2020-12-31T14:43:34.768
+Unexpected IOException with stream: [DEBUG] Closed 1 connections out of 2 in 14 ms
+
+
+# Created at 2020-12-31T14:43:34.775
+Unexpected IOException with stream: [DEBUG] Channel Closed: [id: 0xf6a202d8, L:/127.0.0.1:55129 ! R:localhost/127.0.0.1:12881] with attribute DISCARD
+
+
+# Created at 2020-12-31T14:43:35.844
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:36.945
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:38.043
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
+# Created at 2020-12-31T14:43:41.208
+Unexpected IOException with stream: [DEBUG] Entry count for : http://localhost:1301 : 1
+
+
